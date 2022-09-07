@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/cormorant-garamond-v16-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/cormorant-garamond-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/cormorant-garamond-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/cormorant-garamond-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/cormorant-garamond-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/cormorant-garamond-v16-latin-regular.svg#CormorantGaramond') format('svg'); /* Legacy iOS */
+  }
+
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v25-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/montserrat-v25-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat-v25-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+
+  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+    font-family: 'Cormorant Garamond';
+  }
+  html { height: 101%; } /* always display scrollbars */
+  body { font-size: 62.5%; line-height: 1; font-family: Arial, Tahoma, Verdana, sans-serif; }
+
+
+  .header-content-wrapper {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: black;  
+  }
+
+  .header-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .nav-button {
+    background: black;
+    border: 1px solid black;
+  
+  }
+
+  .link {
+    font-family: 'Cormorant Garamond';
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 19px;
+    font-weight: 700;
+  }
+
+  .link-first {
+    color: #c2a06d;
+  }
+
+  
+  .link:hover {
+    color: #c2a06d;
+    transition: all .3s ease;
+    cursor: pointer;
+  }
+
+  .box-with-background-img {
+    background-image: url(./images/background-for-image.webp);
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+  }
+
+  .main-page-content-part {
+    padding-top: 86px;
+  }
+
+  .link-text {
+    color: #c2a06d;
+    text-align: center;
+    padding-top: 6%;
+  }
+
+  .text-title {
+    font-size: 150px;
+    letter-spacing: 0.10em;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  .sub-text {
+    font-size: 15px;
+    letter-spacing: 0.35em;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .button-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  .button {
+    background: none;
+    border: none;
+    font-size: 70px;
+    font-weight: 100;
+    color: white;
+    cursor: pointer;
+
+  }
+
+  .img {
+    width: 750px;
+    height: 380px;
+    margin-bottom: -2px;
+  }
+
+  .box-with-video-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 24%;
+  }
+
+  .white-block-after-img {
+    background: lightgrey;
+    width: 750px;
+    padding-bottom: 50px;
+  }
+
+  .footer-box {
+    width: 100%;
+    background: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+
+  .footer-text {
+    color: #716f6b;
+    font-family: 'Cormorant Garamond';
+    text-decoration: none;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+
+  }
+
+  .wix-link {
+    color: #716f6b;
+    font-family: 'Cormorant Garamond';
+    text-decoration: none;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  @media (max-width: 767px) {
+    .box-with-video-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-title {
+        font-size: 90px;
+    }
+
+    .img {
+        width: 480px;
+    }
+
+    .white-block-after-img {
+        width: 480px;
+    }
+
+
+    .link-text {
+        padding-top: 11%;
+    }
+
+    .box-with-video-img {
+        padding-bottom: 44%;
+    }
+  }
+
+  @media (max-width: 547px) {
+    .box-with-video-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-title {
+        font-size: 75px;
+    }
+
+    .img {
+        width: 290px;
+    }
+
+    .white-block-after-img {
+        width: 290px;
+    }
+  }
